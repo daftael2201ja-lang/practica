@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 header{
@@ -9,7 +8,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:aqua;
+    background-color: aqua;
 }
 
 header img{
@@ -17,11 +16,10 @@ header img{
 }
 
 article {
-    height: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-
 }
 
 article img{
